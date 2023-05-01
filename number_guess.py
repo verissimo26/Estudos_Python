@@ -36,7 +36,7 @@
 #
 # # ______________________ DADO VIRTUAL ESTÁ DANDO ERRO ____________________________
 
-import random
+# import random
 
 # def roll():
 #     return random.randrange(0,7)
@@ -59,30 +59,31 @@ resultado =[]
 
 rolar_os_dados = input("Gostaria de rolar os dados? \n").lower()
 if rolar_os_dados == "sim":
-   print(roll())
-else:
-    print("Ok volte em breve")
-    quit()
-
-rolar_os_dados2 = input("Gostaria de rolar os dados? 2º tentativa \n").lower()
-if rolar_os_dados2 == "sim":
+    rolar_os_dados = roll()
     print(roll())
+   
 else:
     print("Ok volte em breve")
     quit()
 
-rolar_os_dados3 = input("Gostaria de rolar os dados? 2º tentativa \n").lower()
-if rolar_os_dados3 == "sim":
-    print(roll())
-else:
-    print("Ok volte em breve")
-    quit()
+# rolar_os_dados2 = input("Gostaria de rolar os dados? 2º tentativa \n").lower()
+# if rolar_os_dados2 == "sim":
+#
+#     print(roll())
+# else:
+#     print("Ok volte em breve")
+#     quit()
+#
+# rolar_os_dados3 = input("Gostaria de rolar os dados? 2º tentativa \n").lower()
+# if rolar_os_dados3 == "sim":
+#     print(roll())
+# else:
+#     print("Ok volte em breve")
+#     quit()
+
+print("obrigado por jogar")
 
 
-
- resultado1 = roll( )
-todos_os_resultados.append(resultados1)
-print(resultado)
 
 
 
